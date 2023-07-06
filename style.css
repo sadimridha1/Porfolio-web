@@ -145,3 +145,43 @@
     color:rgb(111, 111, 255) ;
     background-color: #3A2C1E;
   }
+
+  /* Service section start */
+
+  .service{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 70px;
+    /* background-color: black; */
+  }
+
+  .service img{
+    width: 100px;
+  }
+  
+  .service .icon{
+    text-align: center;
+  }
+
+  .service .wordpress{
+    border: 7px solid orangered;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 8px;
+    height: 400px;
+    padding-top: 100px;
+  }
+
+  .service .wordpress h3{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(56, 56, 243);
+  }
+
+  .service .wordpress p{
+    font-size: 20px;
+    text-align: center;
+  }
