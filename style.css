@@ -185,3 +185,28 @@
     font-size: 20px;
     text-align: center;
   }
+
+  /* footer section start */
+
+  .footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #3838F3;
+    color: #fff;
+    padding: 90px 2px;
+  }
+
+  .footer .f-title{
+    font-size: 35px;
+    /* color: orangered; */
+  }
+
+  .footer .location li{
+    list-style: none;
+    font-size: 22px;
+    padding-top: 7px;
+  }
+
+  .footer .location li:hover{
+    cursor: pointer;
+  }
