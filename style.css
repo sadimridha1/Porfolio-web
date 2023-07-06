@@ -9,6 +9,8 @@
     align-items: center;
     background-color: rgb(34, 31, 31);
     padding: 25px 1px;
+    width: 100%;
+    position: fixed;
 }
 
 .header .sadi-logo{
