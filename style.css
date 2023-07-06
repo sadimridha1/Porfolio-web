@@ -39,4 +39,47 @@
 
   /* banar section start */
 
-  
+  .banar{
+    background-color: rgb(5, 4, 4);
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-direction: row-reverse; */
+    height: 100vh;
+  }
+
+  .banar-description {
+    padding-left: 40px;
+  }
+
+  .banar-description h3{
+    font-size: 55px;
+    padding-bottom: 15px;
+    line-height: 57px;
+  }
+
+  .banar-description .working{
+    color: orangered;
+    /* font-size: 102px; */
+  }
+
+  .banar-description p{
+    font-size: 22px;
+  }
+
+  .banar-description .hire-btn{
+    padding: 8px 31px;
+    font-size: 18px;
+    margin-top: 20px;
+    background-color: orangered;
+    border-radius: 0;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 7px;
+  }
+
+  .banar .banar-img img{
+    width: 700px;
+  }
+
