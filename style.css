@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(34, 31, 31);
+    padding: 25px 1px;
+}
+
+.header .sadi-logo{
+    color: orangered;
+    font-size: 36px;
+}
+
+.header .menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header .menu li{
+    list-style: none;
+    margin-right: 48px;
+}
+
+.header .menu li a:hover{
+    color: orangered;
+    /* background-color: #fff; */
+}
+
+.header .menu li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+}
+
+  /* banar section start */
+
+  
